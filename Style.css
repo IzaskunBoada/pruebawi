@@ -1,0 +1,165 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+/*------------Menu--------------*/
+.menu {
+	padding: 2em;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+	position: relative;
+	float: left;
+	background-color:#03829b;
+	z-index: 2;
+}
+.menu ul a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+.menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+.menu ul li:hover {
+ background:#56b6c9;
+}
+.menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+.menu ul ul li {
+ float:none;
+ width:150px
+}
+.menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+
+}
+.menu ul li:hover > ul {
+ display:block;
+}
+/*---------------------------------*/
+header {
+	background-color: #03829b;
+	height: 100px;
+	width: 100%;
+}
+nav, .media {
+	display: inline-block;
+  	vertical-align: top;
+}
+.media{
+	float: right;
+}
+section {
+	width: 100%;
+	height: 100%;
+}
+/*aside, */
+article {
+	/*display: inline-block;
+  	vertical-align: top;*/
+	height: 770px;
+  	border:  1px solid white;
+  	color: white;
+  	z-index: 1;
+  	width: 94%;
+  	font-size: 25px;
+  	margin: auto;
+/*}
+
+aside {
+	background-color: #49add0;
+	max-width: 14.9%;
+	text-align: center;
+}
+article {*/
+	background-color: #56b6c9;
+  	font-size: 20px;
+}
+footer {
+	background-color: #4f848e;
+	min-height: 50px;
+}
+.footer {
+	display: inline-block;
+    vertical-align: top;
+    min-width: 10%;
+    min-height: 90%;
+    max-height: 90%;
+    position: relative;
+    margin-left: 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+	
+}
+.txtfooter {
+	margin:  0.5em;
+	font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.txtfooter a{
+	color: #CFCFCFFF;
+}
+h1, h2, h3{
+	text-align: center;
+}
+/*aside, */
+article, .txtfooter {
+	color: white;
+}
+article div {
+	margin: 3em;
+}
+.imagenTexto {
+	height: 500px;
+	width: 700px;
+	margin: auto;
+	display: block;
+	position: relative;
+	border-radius: 30px;
+	border: 2px solid black;
+
+}
+.tablaMenu {
+	margin: 0 auto;
+}
+.scrollable {
+    height: 770px;
+    overflow-y: auto;
+}
+.titulo{
+	margin:auto;
+	display: block;
+}
+a{
+	color: white;
+	font-weight: bold;
+}
+h4 {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+section p{
+	font-family: 'Open Sans', sans-serif;
+}
